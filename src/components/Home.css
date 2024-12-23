@@ -1,0 +1,43 @@
+
+.main{
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(201, 195, 195);
+    margin-bottom: 20px;
+}
+
+.navbar{
+    width: 100vw;
+    background-color: rgb(201, 195, 195);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    font-size: large;
+    
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.pages{
+    height: 100px;
+    width: 400px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pages>ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+.pages>ul>li{
+    list-style-type: none;
+}
+
+.filter{
+    height: 100px;
+    width: 100px;
+}

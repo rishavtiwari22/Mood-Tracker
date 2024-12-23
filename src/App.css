@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
-body{
-  background-color: grey;
+.main{
+  display: flex;
+  flex-direction: column;
 }

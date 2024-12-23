@@ -1,4 +1,5 @@
 import Homepage from './components/Homepage'
+import CalendarTracker from './components/Calender';
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <div className="main">
         <Homepage />
+        <CalendarTracker />
       </div>
     </>
   )
